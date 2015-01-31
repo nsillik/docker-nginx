@@ -7,7 +7,4 @@ RUN mkdir /etc/nginx/ssl
 ADD default /etc/nginx/sites-available/default
 ADD default-ssl /etc/nginx/sites-available/default-ssl
 
-EXPOSE 80
-
 CMD ["nginx"]
-
